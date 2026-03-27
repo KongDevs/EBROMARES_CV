@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E B R O M A R E S</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>EBROMARES</title>
+    <link rel="stylesheet" href="/styles.css">
     
     <style>
         /* Reseteo del cuerpo para ocupar toda la pantalla sin barras de desplazamiento */
@@ -46,7 +46,7 @@
             max-width: 100%; /* Se adapta al contenedor */
             height: auto; /* Mantiene la proporción original */
             object-fit: contain; /* Evita que la imagen se deforme o recorte */
-            filter: drop-shadow(0 0 20px var(--neon-glow)); /* Agrega un efecto de resplandor neón exterior */
+            filter: drop-shadow(0 0 180px var(--neon-glow)); /* Agrega un efecto de resplandor neón exterior */
         }
 
         /* Sección derecha (Ocupa el 25% del espacio para los botones) */
@@ -57,8 +57,8 @@
             justify-content: center; /* Centra el bloque de botones verticalmente */
             align-items: center; /* Centra los botones horizontalmente */
             padding: 40px; /* Espaciado interno generoso */
-            background-color: #030303; /* Fondo un tono más gris que el negro puro */
-            gap: 30px; /* Separación de 30px entre cada botón */
+            background-color: #000700; /* Fondo un tono más gris que el negro puro */
+            gap: 50px; /* Separación de 30px entre cada botón */
         }
 
         /* Estilo base compartido para los botones del panel lateral */
@@ -92,14 +92,14 @@
         /* Botón secundario para descargas */
         .btn-cv {
             background: transparent; /* Fondo transparente por defecto */
-            color: #fff; /* Texto blanco por defecto */
+            color: var(--neon-green); /* Texto blanco por defecto */
             border: 2px solid var(--wine-red); /* Borde rojo oscuro */
         }
 
         /* Efecto al pasar el cursor sobre el botón secundario */
         .btn-cv:hover {
             background: var(--wine-red); /* El fondo se llena de rojo */
-            box-shadow: 0 0 20px rgba(75, 15, 26, 0.8); /* Efecto de luz roja difuminada */
+            box-shadow: 0 0 20px rgb(99, 4, 21); /* Efecto de luz roja difuminada */
         }
 
         /* Diseño responsivo para pantallas de móviles (menos de 800px) */
@@ -120,12 +120,12 @@
     
     <div class="image-section">
         <div class="image-placeholder">
-            <img src="assets/logo.png" alt="Logo Escudo Familiar Ancestral" class="main-image-content">
+            <img src="assets/logo.png"  class="main-image-content">
         </div>
     </div>
 
     <div class="sidebar-section">
-        <button class="btn-panel btn-saber-mas" onclick="window.location.href='2.html'">Saber Más</button>
+        <button class="btn-panel btn-saber-mas" onclick="window.location.href='cv.html'">Saber Más</button>
         <a href="assets/CV_EBROMARES.pdf" download="CV_EBROMARES.pdf" style="width: 100%; text-decoration: none;">
             <button class="btn-panel btn-cv">Descargar CV</button>
         </a>

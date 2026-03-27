@@ -52,19 +52,47 @@ const cvTranslations = {
         dir: "ltr", title: "root@ebromares:~", prompt: "root@ebromares:~$ ",
         data: [
             { cmd: "./init_profile.sh", output: [
-                "Iniciando volcado de memoria...", "[OK] Datos biométricos verificados.", "==================================================",
-                "<span class='highlight'>NOMBRE:</span> Ing. Mario Jafet Ebromares Fuentes",
-                "<span class='highlight'>PERFIL:</span> Profesional en Ciencias de la Informática / Data Engineer",
+                "Iniciando sistema...", 
+                "Iniciando memoria...",
+                "Buscando data...",
+                "Humano localizado...",
+                "[OK] Datos biométricos verificados.",
+                 "==================================================",
+
+                "<span class='highlight'>NOMBRE:</span> Lic. Mario Jafet Ebromares Fuentes",
+                "<span class='highlight'>PERFIL:</span> Profesional en Ciencias de la Informática / Data Engineer / Ciberseguridad",
                 "==================================================",
-                "RESUMEN:", "> Apasionado por la tecnología y la innovación.", "> Capacidad analítica para el procesamiento de datos y arquitecturas cloud."
+
+                "RESUMEN:", 
+                "> Apasionado por la tecnología y la innovación.",
+                "> Orgullosamente Politecnico",
+                "> Creativo y gran autodidacta", 
+                "> Capacidad analítica para el procesamiento de datos y arquitecturas cloud."
             ]},
             { cmd: "cat experiencia.log", output: [
                 "<span class='section-title'>[ EXPERIENCIA PROFESIONAL ]</span>", "",
-                "<span class='highlight'>[+] INGENIERO DE DATOS | Martinexsa</span>", "> Monitoreo y optimización de clusters en entornos cloud.",
-                "<span class='highlight'>[+] INGENIERO DE SOPORTE | Grupo Tecno</span>", "> Recuperación de datos críticos desde discos duros dañados."
+
+                "<span class='highlight'>[+] INGENIERO DE DATOS | Martinexsa </span>", 
+                "> Supervisión integral de workflows mediante Apache Airflow, incluyendo el seguimiento de ejecución de DAGs, validación de task instances y gestión de dependencias. Implementación de estrategias de observabilidad para detección temprana de fallos, asegurando la continuidad operativa de pipelines batch y programados.",
+                "> Monitoreo del estado y rendimiento del clúster en plataformas tipo Cloudera (CDH/CDP), evaluando métricas críticas como uso de recursos (CPU, memoria, I/O) y salud de servicios (HDFS, YARN). Diagnóstico de incidentes mediante herramientas como Hue y consolas SSH (MobaXTerm), garantizando alta disponibilidad y eficiencia del ecosistema Big Data.",
+                "> Ejecución, optimización y validación de consultas en Impala, enfocadas en actualización de catálogos, validación de integridad de datos y soporte a procesos de ingesta. Uso de clientes como DBeaver para interacción eficiente con el Data Warehouse y análisis de resultados.",
+                "> Desarrollo de scripts en Python para identificación de patrones, generación de alertas y procesamiento de datasets. Implementación de lógica analítica para clasificación, ordenamiento y depuración de datos, contribuyendo a la calidad y gobernanza de la información.",
+                "> Definición de arquitecturas de datos escalables y resilientes utilizando herramientas de modelado como Draw.io, incluyendo la documentación de flujos de datos, componentes del ecosistema (ingesta, almacenamiento, procesamiento) y mejores prácticas basadas en arquitecturas tipo Lambda o Data Lakehouse.",
+
+                "<span class='highlight'>[+] INGENIERO DE SOPORTE | Centro Medico DALINDE </span>", 
+                "> Ejecución de mantenimiento preventivo y correctivo en equipos de cómputo y periféricos, incluyendo diagnóstico de fallas a nivel hardware, reemplazo de componentes y optimización del rendimiento. Ensamblaje de PCs bajo criterios de compatibilidad, eficiencia térmica y estabilidad operativa.",
+                ">Estructuración, depuración y normalización de bases de datos de pacientes, asegurando integridad, consistencia y disponibilidad de la información. Aplicación de buenas prácticas en manejo de datos, incluyendo validación, limpieza y organización para facilitar su explotación y análisis.",
+                ">Implementación de técnicas de recuperación de información en dispositivos de almacenamiento (HDD), incluyendo diagnóstico de fallos lógicos y físicos, uso de herramientas especializadas y aplicación de estrategias para minimizar pérdida de datos y garantizar la continuidad operativa.",
+
+
+                "<span class='highlight'>[+] TECNICO DE SOPORTE TI | Casa del Jubilado y Pensionado IMSS </span>", 
+                "> Registro, actualización y mantenimiento de información de integrantes en bases de datos, garantizando integridad, consistencia y correcta estructuración de los datos mediante prácticas de validación y control.",
+                ">Diagnóstico de fallas en equipos de cómputo, ejecución de mantenimiento preventivo y correctivo, así como reemplazo de componentes dañados, asegurando la continuidad operativa y el rendimiento óptimo de los sistemas.",
+                ">Análisis y solución de problemas a nivel de software, incluyendo configuración, depuración y restauración de sistemas, aplicando metodologías de troubleshooting para minimizar tiempos de inactividad y mejorar la estabilidad del entorno.",
+
             ]},
             { cmd: "ls -l /certificaciones/", output: getCertificationsOutput("Validado", "Ejecutar_Verificación()") },
-            { cmd: "echo 'Acciones:'", output: [ "<br><a href='assets/CV_EBROMARES.pdf' download class='btn-action'>[ Descargar_CV.pdf ]</a> <a href='https://www.linkedin.com/in/ebromaresmario/' target='_blank' class='btn-action'>[ Abrir_LinkedIn ]</a>" ] }
+            { cmd: "echo 'Te invito a descargar mi cv si te gusto mi trabajo o contactarme por linkeid'", output: [ "<br><a href='assets/CV_EBROMARES.pdf' download class='btn-action'>[ Descargar_CV.pdf ]</a> <a href='https://www.linkedin.com/in/ebromaresmario/' target='_blank' class='btn-action'>[ Abrir_LinkedIn ]</a>" ] }
         ]
     },
     en: {
