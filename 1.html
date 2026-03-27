@@ -8,3 +8,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="login-container">
+    <div class="lang-selector">
+        <label id="labelSeleccionaIdioma" for="language">Selecciona Idioma:</label>
+        <select id="language">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+            <option value="ru">Русский</option>
+            <option value="ar">العربية</option>
+            <option value="fa">فارسی</option>
+        </select>
+    </div>
+    <h2 id="title">Para Acceder:</h2>
+    
+    <form id="form">
+        <label id="labelNombre">Nombre</label>
+        <input type="text" id="nombre" required maxlength="50" pattern="[a-zA-ZÀ-ÿ\s]{2,50}">
+
+        <label id="labelApellido">Apellido</label>
+        <input type="text" id="apellido" required maxlength="50" pattern="[a-zA-ZÀ-ÿ\s]{2,50}">
+
+        <button type="submit" id="btnSubmit">Enviar</button>
+    </form>
+</div>
+
+<script src="JS/app.js"></script>
+</body>
+</html>
