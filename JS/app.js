@@ -483,15 +483,15 @@ function runTerminal(langCode) {
     terminalTitle.textContent = config.title;
     promptUser.textContent = config.prompt;
     
-    let delayObj = { current: 500 };
+    let delayObj = { current: 700 };
 
     config.data.forEach(block => {
         printLine(block.cmd, true, delayObj, config.prompt);
-        delayObj.current += 800; // Simula que el usuario piensa el comando
+        delayObj.current += 1000; // Simula que el usuario piensa el comando
         
         block.output.forEach(line => { 
             printLine(line, false, delayObj, config.prompt); 
-            delayObj.current += 100; // Velocidad de renderizado del texto
+            delayObj.current += 70; // Velocidad de renderizado del texto
         });
         delayObj.current += 600; 
     });
