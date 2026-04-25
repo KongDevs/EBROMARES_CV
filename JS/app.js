@@ -106,7 +106,6 @@ function getSkillsOutput(t) {
             skills: [
                 { name: "Python",            pct: 85 },
                 { name: "HTML5 / CSS3 / JS", pct: 75 },
-                { name: "PHP / MySQL",       pct: 65 },
                 { name: "Draw.io / Diagramas", pct: 78 },
             ]
         },
@@ -114,8 +113,7 @@ function getSkillsOutput(t) {
             label: t.catSec,
             skills: [
                 { name: "Linux / Kali Linux", pct: 80 },
-                { name: "Ciberseguridad",     pct: 70 },
-                { name: "Pentesting",         pct: 62 },
+                { name: "Windows",     pct: 90 },
             ]
         },
         {
@@ -123,7 +121,7 @@ function getSkillsOutput(t) {
             skills: [
                 { name: "Scrum / Agile",      pct: 75 },
                 { name: t.skillTeam,          pct: 88 },
-                { name: t.skillAnalysis,      pct: 85 },
+                { name: t.skillAnalysis,      pct: 90 },
                 { name: t.skillEnglish,       pct: 72 },
             ]
         },
@@ -186,14 +184,14 @@ function getEducacionOutput(t) {
     const items = [
         {
             title:  t.edu1Title,
-            inst:   "UPIICSA — IPN",
+            inst:   "UPIICSA – Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas (IPN)",
             period: "Ago 2017 – Jun 2023",
             gpa:    "8.0",
             tags:   t.edu1Tags
         },
         {
             title:  t.edu2Title,
-            inst:   "Instituto Politécnico Nacional (IPN)",
+            inst:   "CECyT N°1 Gonzalo Vazquez Vela (IPN)",
             period: "2013 – 2017",
             gpa:    "8.0",
             tags:   t.edu2Tags
@@ -288,8 +286,8 @@ const cvTranslations = {
                 title:    "FORMACIÓN ACADÉMICA",
                 edu1Title:"Licenciatura en Ciencias de la Informatica",
                 edu1Tags: ["Gestión de Proyectos","Trabajo en Equipo","Metodologías Ágiles","Bases de Datos"],
-                edu2Title:"Tecnicatura en Sistemas Digitales",
-                edu2Tags: ["Sistemas Digitales","Trabajo en Equipo","Electrónica"],
+                edu2Title:"Tecnico Profesional en Sistemas Digitales",
+                edu2Tags: ["Automatizacion","Robotica","Electrónica","Domotica"],
                 edu3Title:"Diplomatura — Computer Technology & Systems",
                 edu3Tags: ["Computación","Sistemas","Tecnología"],
                 edu4Title:"Diplomatura — Educación Financiera",
