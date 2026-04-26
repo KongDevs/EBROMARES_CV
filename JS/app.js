@@ -224,7 +224,7 @@ function getEducacionOutput(t) {
   <div class='edu-title'>${item.title}</div>
   <div class='edu-inst'>⬡ ${item.inst}</div>
   <div class='edu-meta'>
-    <span>📅 ${item.period}</span>
+    <span>  ${item.period}</span>
     ${gpaHtml}
   </div>
   <div style='margin-top:5px'>${tagsHtml}</div>
